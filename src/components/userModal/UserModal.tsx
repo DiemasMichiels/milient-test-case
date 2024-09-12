@@ -60,6 +60,7 @@ const UserModal = ({
 
   return (
     <Modal
+      forceRender
       title={user ? 'Edit User' : 'Add User'}
       open={visible}
       onCancel={onCancel}
